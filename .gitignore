@@ -1,0 +1,66 @@
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# --- Maven ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# --- Gradle ---
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Test & Coverage ---
+coverage/
+*.gcov
+jacoco.exec
+
+# --- Logs & Temp ---
+*.log
+tmp/
+temp/
+
+# --- Secrets & Local Configs ---
+# ВАЖНО: не коммить реальные секреты, ключи и локальные профили
+application-local.yml
+application-local.properties
+local.*
+.env
+.DS_Store
+Thumbs.db
+
+# --- OS & Editor ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# --- Binaries & Native ---
+*.dll
+*.so
+*.dylib
+native/
+
+# --- IDE Cache & Indexes (дополнительно) ---
+.classpath
+.project
+.settings/
+
+# Игнорируем все файлы с расширением .env
+*.env
+# Но не игнорируем SAMPLE.env (где бы он ни лежал)
+!SAMPLE.env

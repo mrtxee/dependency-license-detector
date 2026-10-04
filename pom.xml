@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>dependency-license-detector</artifactId>
+  <groupId>mr.tx.ee</groupId>
+  <packaging>jar</packaging>
+  <version>1.0.1</version>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- Entry point of the runnable jar, see maven-jar-plugin below. -->
+    <app.main.class>mr.xe.delid.app.App</app.main.class>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>6.1.3</version>
+      <scope>test</scope>
+    </dependency>
+    <!--
+      SLF4J binding. Without a binding every log.* call is a no-op
+      (SLF4J 1.7 prints "Failed to load class org.slf4j.impl.StaticLoggerBinder"),
+      so neither App.main nor the detector tests could report the detected licenses.
+      Runtime scope keeps the binding out of the compile classpath and still includes it
+      in both the test classpath and the runtime classpath IDEA builds for App.main.
+      The version must match the transitive slf4j-api that comes from tika-core.
+    -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.36</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.48</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.22.3</version>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.annotation</groupId>
+      <artifactId>jakarta.annotation-api</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tika</groupId>
+      <artifactId>tika-core</artifactId>
+      <version>1.28.4</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.22.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.20.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-compress</artifactId>
+      <version>1.28.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>2.22.3</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!--
+        `java -jar target/dependency-license-detector-1.0.1.jar` fails with
+        "no main manifest attribute" unless the jar manifest declares Main-Class.
+      -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.4.2</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>${app.main.class}</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+      <!--
+        The plain jar carries no dependencies, so `java -jar` would fail with NoClassDefFoundError
+        even with Main-Class set. Shade packs the runtime dependencies into the jar.
+        ServicesResourceTransformer is required: PackageLicenseDetectorFactoryImpl discovers the
+        detectors through ServiceLoader, and shade would otherwise keep only one of the
+        META-INF/services files, silently disabling most of the package types.
+      -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.6.0</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <createDependencyReducedPom>false</createDependencyReducedPom>
+              <transformers>
+                <transformer
+                  implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                <transformer
+                  implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                  <mainClass>${app.main.class}</mainClass>
+                </transformer>
+              </transformers>
+              <filters>
+                <filter>
+                  <!-- Signatures of the shaded dependencies are invalid once repacked. -->
+                  <artifact>*:*</artifact>
+                  <excludes>
+                    <exclude>META-INF/*.SF</exclude>
+                    <exclude>META-INF/*.DSA</exclude>
+                    <exclude>META-INF/*.RSA</exclude>
+                  </excludes>
+                </filter>
+              </filters>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.1.2</version>
+        <configuration>
+          <!--
+            ManifestLicenseDetectionRunner is a manual entry point, not a test: its name does not
+            match the include patterns below, and it is excluded explicitly as well, so that
+            renaming it can never make `mvn test` execute a long detection run over every fixture.
+          -->
+          <includes>
+            <include>**/Test*.java</include>
+            <include>**/*Test.java</include>
+            <include>**/*Tests.java</include>
+            <include>**/*TestCase.java</include>
+          </includes>
+          <excludes>
+            <exclude>**/ManifestLicenseDetectionRunner.java</exclude>
+          </excludes>
+          <!--
+            ApplicationConfig reads these variables in a static initializer and every
+            detector path touches one of its fields, so without them the class fails to
+            initialize and no detector test can run. The values are deliberately fake:
+            the tests never contact a real repository.
+          -->
+          <environmentVariables>
+            <ARTIFACTORY_BASE_URL>http://localhost:0</ARTIFACTORY_BASE_URL>
+            <ARTIFACTORY_CREDENTIALS>test-user:test-password</ARTIFACTORY_CREDENTIALS>
+            <WORKDIR_BASE_PATH>./target/test-workdir</WORKDIR_BASE_PATH>
+            <LICENSE_MAP_FILE>dictionaries/licenses.json</LICENSE_MAP_FILE>
+            <DETECTED_LICENSES_FILE>detected-package-licenses/result.json</DETECTED_LICENSES_FILE>
+            <REQUIRED_SOFTWARE_FILE_GLOB_PATTERN>**/required-software.json</REQUIRED_SOFTWARE_FILE_GLOB_PATTERN>
+          </environmentVariables>
+          <systemPropertyVariables>
+            <!-- slf4j-simple: print every level to stdout so the test log is readable -->
+            <org.slf4j.simpleLogger.defaultLogLevel>info</org.slf4j.simpleLogger.defaultLogLevel>
+          </systemPropertyVariables>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

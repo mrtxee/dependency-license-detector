@@ -1,0 +1,517 @@
+{
+  "groups": [
+    {
+      "title": "Драйвер JDBC",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "PACKAGE",
+          "id": "pkg:maven/com.clickhouse/clickhouse-jdbc@0.7.0",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Среда контейнеризации",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "kubernetes@1.28.x",
+          "areVersionsAboveSuitable": false
+        },
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "openshift@4.8",
+          "areVersionsAboveSuitable": false
+        },
+        {
+          "type": "INTERNAL_PRODUCT",
+          "id": "k8s@1.3.0",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Менеджер пакетов",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "helm@3.13.0",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Управление конфигурациями kubernetes-ресурсов",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "kustomize@4.5.4",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Система управления конфигурациями для автоматизации настройки и развертывания программного обеспечения",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "red-hat-ansible@2.20",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Криптографическая библиотека TLS/SSL",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "openssl@1.0",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Организация базы знаний",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "confluence@7.10",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Управление задачами проекта",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "jira@8.5.10",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Контроль качества кода",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "sonarqube@9.8.x",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Утилита",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "cyclonedx-cli@0.27.2",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Синтаксический анализатор",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "PACKAGE",
+          "id": "pkg:pypi/pyyaml@6.0.1",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Инструмент сборки Docker-образов",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "docker-engine@buildkit 0.14.1",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Docker плагин для расширенной возможности сборки Dockerfiles с BuildKit",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "docker-buildx@docker version 19.03.2",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Сервис централизованного хранения репозиториев артефактов",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "nexus@3.77.0",
+          "areVersionsAboveSuitable": true
+        },
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "nexus-pro@3.69.0-02",
+          "areVersionsAboveSuitable": false
+        },
+        {
+          "type": "INTERNAL_PRODUCT",
+          "id": "arr@2.14.0",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Брокер сообщений",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "kafka@050.070",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Cистема управления версиями схемы базы данных",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "liquibase@4.23.2",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Система управления базами данных (СУБД)",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "oracle-database@8",
+          "areVersionsAboveSuitable": true
+        },
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "postgresql@42.2.5",
+          "areVersionsAboveSuitable": false
+        },
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "clickhouse@23.8",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Средства мониторинга",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "zabbix@3.0",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Консольная утилита",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "kubectl@1.18",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Утилита для синхронизации и передачи файлов",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "rsync@3.1.3",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Высокоуровневый интерпретируемый динамический язык программирования",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "perl@5.16.3",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Процессор YAML на основе командной строки",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "yq@4.25.3",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Объектно-ориентированный язык программирования",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "groovy@4.0.15",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Утилита для обработки JSON в командной строке",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "jq@1.6",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Библиотека для анализа XML-документов",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "libxml2@2.9.1",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Инструмент командной строки",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "curl@7.70.0",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Мультипарадигмальный высокоуровневый язык программирования",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "python@3.12",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Утилита командной строки",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "git@cli 1.8.3.1",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "CLI-инструмент",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "cdxgen@11.4.1",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Библиотека обработки XSLT",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "libxslt@1.1.28",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Сервер приложений",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "wildfly@15",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Сервер приложений",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "INTERNAL_PRODUCT",
+          "id": "snx@1.2.0",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Управление секретами",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "hashicorp-vault@1.20.0",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Операционная система",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "alt-sp@8.2",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Инструмент управления программными проектами",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "maven@3.9.x",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Сервер приложений",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "websphere-as@8.5.5.19",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Платформа для разработки, доставки и запуска контейнерных приложений",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "docker-engine@20.10.11",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Инструмент сборки, тестирования, развертывания контейнеризированных приложений",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "jenkins@2.462.2",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Java-машина",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "open-jdk@17",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Сервис централизованного хранения репозиториев исходного кода",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "bitbucket@7.21.7",
+          "areVersionsAboveSuitable": false
+        },
+        {
+          "type": "INTERNAL_PRODUCT",
+          "id": "vcs@8.9.0",
+          "areVersionsAboveSuitable": true
+        },
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "gitlab@14.4.5",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Программный пакет",
+      "isMandatory": true,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "cue@0.6",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    },
+    {
+      "title": "Системная библиотека",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "PACKAGE",
+          "id": "pkg:rpm/libstdc++6@6.0.8",
+          "areVersionsAboveSuitable": false
+        }
+      ]
+    },
+    {
+      "title": "Среда выполнения JavaScript",
+      "isMandatory": false,
+      "alternatives": [
+        {
+          "type": "EXTERNAL_PRODUCT",
+          "id": "node-js@20",
+          "areVersionsAboveSuitable": true
+        }
+      ]
+    }
+  ]
+}

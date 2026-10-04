@@ -1,0 +1,2884 @@
+{
+  "licenses": [
+    {
+      "nameLikeIn": [
+        "SberTech property",
+        "Sbertech property",
+        "sbertech property",
+        "LicenseRef-SberTech-property",
+        "SberTech Property",
+        "sbt-tasktracker-licence"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "0BSD",
+      "nameLikeIn": [
+        "0BSD",
+        "BSD Zero Clause License",
+        "0 BSD",
+        "0-clause BSD",
+        "BSD%Zero%Clause",
+        "Zero-Clause BSD License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Adobe-Utopia",
+      "nameLikeIn": [
+        "Utopia",
+        "Adobe-Utopia",
+        "Adobe Utopia Font License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "AFL-2.0",
+      "nameLikeIn": [
+        "AFL%2.0",
+        "Academic Free License v2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "AFL-2.1",
+      "nameLikeIn": [
+        "Academic Free License%2.1",
+        "AFL%2.1",
+        "AFL"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "AGPL-1.0-only",
+      "nameLikeIn": [
+        "Affero General Public License%1.0 only",
+        "AGPL-1.0-only"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "AGPL-1.0-or-later",
+      "nameLikeIn": [
+        "Affero General Public License%1.0 or later",
+        "AGPL-1.0-or-later"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "AGPL-2.0",
+      "nameLikeIn": [
+        "GNU Affero General Public License%2.0",
+        "AGPL%2.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "AGPL-3.0",
+      "nameLikeIn": [
+        "AGPL%3.0",
+        "GNU Affero General Public License%3.0",
+        "AGPL%v3 license"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "AGPL-3.0-only",
+      "nameLikeIn": [
+        "GNU Affero General Public License%3.0 only",
+        "AGPL-3.0-only"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "AGPL-3.0-or-later",
+      "nameLikeIn": [
+        "GNU Affero General Public License%3.0 or later",
+        "AGPL-3.0-or-later"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "AMD-newlib",
+      "nameLikeIn": [
+        "AMD-newlib",
+        "AMD newlib License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "ANTLR-PD",
+      "nameLikeIn": [
+        "ANTLR-PD",
+        "ANTLR Software Rights Notice"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Apache-2.0",
+      "nameLikeIn": [
+        "Apache%2%",
+        "Apache%2.0",
+        "Apache%License%2.0",
+        "Apache%License%Version 2.0",
+        "Apache Public License 2.0",
+        "Apache Software License",
+        "Apache Software License%Version 2.0",
+        "Apache License%2.0",
+        "ASL2",
+        "ASL2.0",
+        "ASL%2",
+        "ASL%2.0",
+        "ASL%version 2",
+        "ASL%version 2.0",
+        "ALv2",
+        "Apache%v2",
+        "Apache License",
+        "The Apache License",
+        "The Apache License%Version 2.0",
+        "The Apache Software License",
+        "The Apache Software License%2.0",
+        "Apache",
+        "AL 2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Apache-1.0",
+      "nameLikeIn": [
+        "Apache%License%1.0",
+        "Apache-1.0",
+        "Apache%1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Apache-1.1",
+      "nameLikeIn": [
+        "Apache License%1.1",
+        "Apache%1.1",
+        "ASL%1.1",
+        "Apache%1.1%",
+        "Apache%1.1",
+        "Apache%License%1.1",
+        "Apache%1.1",
+        "Apache License%Version 1.1",
+        "Apache%v1.1",
+        "ALv2"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Apache-2.0 WITH LLVM-exception",
+      "nameLikeIn": [
+        "Apache-2.0 WITH LLVM-exception"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "APSL-2.0",
+      "nameLikeIn": [
+        "APSL-2.0",
+        "Apple Public Source License 2.0"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "Arphic-1999",
+      "nameLikeIn": [
+        "Arphic-1999",
+        "Arphic Public License",
+        "Arphic"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "Artistic-1.0",
+      "nameLikeIn": [
+        "Artistic License%1.0",
+        "Artistic%1.0",
+        "Artistic-1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Artistic-1.0-Perl",
+      "nameLikeIn": [
+        "Artistic-1.0-Perl",
+        "Artistic License 1.0 (Perl)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Artistic-2.0",
+      "nameLikeIn": [
+        "Artistic License%2.0",
+        "Artistic%2.0",
+        "Artistic%2"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "ASF 2.0",
+      "nameLikeIn": [
+        "ASF%2.0",
+        "ASF%2"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Beerware",
+      "nameLikeIn": [
+        "Beerware",
+        "Beerware License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Bitstream-Charter",
+      "nameLikeIn": [
+        "Bitstream-Charter",
+        "Bitstream%Charter",
+        "Bitstream Charter Font License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Bitstream-Vera",
+      "nameLikeIn": [
+        "Bitstream Vera Font License",
+        "Bitstream%Vera",
+        "Bitstream-Vera"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "blessing",
+      "nameLikeIn": [
+        "blessing",
+        "SQLite Blessing"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BlueOak-1.0.0",
+      "nameLikeIn": [
+        "Blue Oak Model License%1.0.0",
+        "BlueOak-1.0.0",
+        "Blue Oak License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Borceux",
+      "nameLikeIn": [
+        "Borceux",
+        "Borceux license"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Boehm-GC",
+      "nameLikeIn": [
+        "Boehm-GC",
+        "Boehm-Demers-Weiser GC License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Bouncy Castle License",
+      "nameLikeIn": [
+        "Bouncy Castle License",
+        "Bouncy Castle Licence",
+        "Bouncy Castle"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Brian-Gladman-2-Clause",
+      "nameLikeIn": [
+        "Brian-Gladman-2-Clause",
+        "Brian%Gladman%2%Clause",
+        "Brian Gladman 2-Clause License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-3-Clause-Clear",
+      "nameLikeIn": [
+        "BSD-3-Clause-Clear",
+        "BSD 3-Clause Clear License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD 3-clause License w/nuclear disclaimer",
+      "nameLikeIn": [
+        "BSD 3-clause License w/nuclear disclaimer"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-3-Clause-Modification",
+      "nameLikeIn": [
+        "BSD-3-Clause-Modification",
+        "BSD 3-Clause Modification"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-3-Clause-No-Nuclear-Warranty",
+      "nameLikeIn": [
+        "BSD-3-Clause-No-Nuclear-Warranty",
+        "BSD 3-Clause No Nuclear Warranty"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-3-Clause-Open-MPI",
+      "nameLikeIn": [
+        "BSD-3-Clause-Open-MPI",
+        "BSD 3-Clause Open MPI variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-1-Clause",
+      "nameLikeIn": [
+        "BSD 1-Clause License",
+        "BSD-1-Clause",
+        "BSD License",
+        "BSD licence",
+        "BSD"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-2-Clause",
+      "nameLikeIn": [
+        "BSD 2-Clause \"Simplified\" License",
+        "BSD 2-Clause Simplified License",
+        "BSD License%2.0",
+        "BSD%2",
+        "BSD%2.0",
+        "BSD-2-Clause",
+        "BSDL 2%Clause",
+        "BSD%2%Clause license",
+        "BSD-2 License",
+        "BSD-2",
+        "BSD License 2.0",
+        "The 2-Clause BSD License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-2-Clause-Patent",
+      "nameLikeIn": [
+        "BSD-2-Clause Plus Patent License",
+        "BSD-2-Clause-Patent"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-2-Clause-Views",
+      "nameLikeIn": [
+        "BSD 2-Clause with views sentence",
+        "BSD-2-Clause-Views"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-3-Clause",
+      "nameLikeIn": [
+        "BSD 3%Clause \"New\" or \"Revised\" License",
+        "BSD 3%Clause New or Revised License",
+        "BSD%3",
+        "BSD%3.0",
+        "BSD-3-Clause",
+        "BSD-Revised",
+        "Revised BSD",
+        "3%clause BSD",
+        "3%Clause BSD License",
+        "BSD 3%Clause License",
+        "BSD-3",
+        "BSD-3 License",
+        "BSD Licence 3",
+        "BSDLicense3",
+        "BSD 3-clause New License",
+        "BSD New license",
+        "BSD New",
+        "The (New) BSD License",
+        "The 3-Clause BSD License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-3-Clause and ISC",
+      "nameLikeIn": [
+        "BSD-3-Clause and ISC"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-4-Clause",
+      "nameLikeIn": [
+        "BSD 4%Clause \"Original\" or \"Old\" License",
+        "BSD 4%Clause Original or Old License",
+        "BSD-4-Clause"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-4.3TAHOE",
+      "nameLikeIn": [
+        "BSD-4.3TAHOE",
+        "BSD 4.3 TAHOE License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-4-Clause-UC",
+      "nameLikeIn": [
+        "BSD-4-Clause-UC",
+        "BSD-4-Clause (University of California-Specific)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-Attribution-HPND-disclaimer",
+      "nameLikeIn": [
+        "BSD-Attribution-HPND-disclaimer",
+        "BSD with Attribution and HPND disclaimer"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-Systemics",
+      "nameLikeIn": [
+        "BSD-Systemics",
+        "Systemics BSD variant license"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-Advertising-Acknowledgement",
+      "nameLikeIn": [
+        "BSD Advertising Acknowledgement License",
+        "BSD%Advertising%Acknowledgement",
+        "BSD-Advertising-Acknowledgement"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-Source-Code",
+      "nameLikeIn": [
+        "BSD-Source-Code",
+        "BSD 3-Clause",
+        "BSD%Source%Code",
+        "BSD Source Code Attribution"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-like",
+      "nameLikeIn": [
+        "BSD-like",
+        "BSD like"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSD-Style License",
+      "nameLikeIn": [
+        "BSD-Style License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSL-1.0",
+      "nameLikeIn": [
+        "Boost Software License%1.0",
+        "BSL%1.0",
+        "BSL-1.0",
+        "Boost",
+        "Boost Software License%1",
+        "BSL%1"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "BSLv1 License",
+      "nameLikeIn": [
+        "BSLv1 License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "bzip2-1.0.6",
+      "nameLikeIn": [
+        "bzip2-1.0.6",
+        "bzip2 and libbzip2 License v1.0.6"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CC0-1.0",
+      "nameLikeIn": [
+        "CC0%1.0",
+        "Creative Commons Zero v1.0 Universal",
+        "CC0v1 License",
+        "CC0 1.0 Universal",
+        "CC0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CC-PDDC",
+      "nameLikeIn": [
+        "CC-PDDC",
+        "Creative Commons Public Domain Dedication and Certification"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CC-BY-1.0",
+      "nameLikeIn": [
+        "CC%BY%1.0",
+        "Creative Commons Attribution 1.0 Generic"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CC-BY-2.0",
+      "nameLikeIn": [
+        "Creative Commons Attribution 2.0 Generic"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CC-BY-2.5",
+      "nameLikeIn": [
+        "Creative Commons Attribution 2.5 Generic"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CC-BY-3.0",
+      "nameLikeIn": [
+        "CC%BY%3",
+        "CC%BY%3.0",
+        "Creative Commons Attribution 3.0 Unported"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CC-BY-4.0",
+      "nameLikeIn": [
+        "CC%BY%4.0",
+        "CC-BY-4.0",
+        "Creative Commons Attribution 4.0 International"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CC-BY-4.0",
+      "nameLikeIn": [
+        "CC-BY-4.0",
+        "Creative Commons Attribution 4.0 International. CC-BY-4.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CC-BY-SA-3.0",
+      "nameLikeIn": [
+        "CC-BY-SA-3.0",
+        "Creative Commons Attribution Share Alike 3.0 International",
+        "Creative Commons 3.0 BY-SA",
+        "CC-BY-SA"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CC-BY-SA-4.0",
+      "nameLikeIn": [
+        "CC-BY-SA-4.0",
+        "Creative Commons Attribution Share Alike 4.0 International"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "CDDL-1.0",
+      "nameLikeIn": [
+        "CDDL%1",
+        "CDDL%1.0",
+        "Common Development and Distribution License%1.0",
+        "Common Development and Distribution License",
+        "CDDL"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "CDDL-1.1",
+      "nameLikeIn": [
+        "CDDL%1.1",
+        "Common Development and Distribution License%1.1"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "CDLA-Permissive-1.0",
+      "nameLikeIn": [
+        "CDLA-Permissive-1.0",
+        "Community Data License Agreement Permissive 1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CDLA-Permissive-2.0",
+      "nameLikeIn": [
+        "CDLA-Permissive-2.0",
+        "Community Data License Agreement Permissive 2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CDLA-Sharing-1.0",
+      "nameLikeIn": [
+        "CDLA-Sharing-1.0",
+        "Community Data License Agreement Sharing 1.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "CECILL-C",
+      "nameLikeIn": [
+        "CECILL-C"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "CMU-Mach",
+      "nameLikeIn": [
+        "CMU-Mach",
+        "CMU Mach License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Codehaus Xfire License",
+      "nameLikeIn": [
+        "Codehaus Xfire License"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "COIL 0.4",
+      "nameLikeIn": [
+        "COIL 0.4"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "C-UDA-1.0",
+      "nameLikeIn": [
+        "C-UDA-1.0",
+        "Computational Use of Data Agreement 1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "Confluent Community License",
+        "CONFLUENT-COMMUNITY-1.0",
+        "Confluent Community License Agreement Version 1.0",
+        "Confluent Community License v1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Copyfree Open Innovation License 0.6",
+      "nameLikeIn": [
+        "Copyfree Open Innovation License 0.6"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "Copyright only"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CPL 1.6.3",
+      "nameLikeIn": [
+        "CPL 1.6.3"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CPL-1.0",
+      "nameLikeIn": [
+        "CDDL%1.1",
+        "Common Public License%1.0",
+        "CPL"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "CNRI-Python",
+      "nameLikeIn": [
+        "CNRI-Python",
+        "CCNRI Python License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Creative Commons Legal Code",
+      "nameLikeIn": [
+        "Creative Commons Legal Code"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "curl",
+      "nameLikeIn": [
+        "curl",
+        "curl License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CUP PARSER GENERATOR COPYRIGHT NOTICE",
+      "nameLikeIn": [
+        "CUP PARSER GENERATOR COPYRIGHT NOTICE"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CUP Parser Generator Copyright Notice, License, and Disclaimer",
+      "nameLikeIn": [
+        "CUP Parser Generator Copyright Notice, License, and Disclaimer"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "CUP-Parser-Generat, SMLNJ, No Source License",
+      "nameLikeIn": [
+        "CUP-Parser-Generat, SMLNJ, No Source License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "DMTF",
+        "Distributed Management Task Force"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "dom4j License",
+      "nameLikeIn": [
+        "dom4j License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "DOM4J-BSD",
+      "nameLikeIn": [
+        "DOM4J-BSD"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "dtoa",
+      "nameLikeIn": [
+        "dtoa",
+        "David M. Gay dtoa License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "EUPL-1.1",
+      "nameLikeIn": [
+        "EUPL-1.1",
+        "European Union Public License 1.1"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "Eurosym",
+      "nameLikeIn": [
+        "Eurosym",
+        "Eurosym License"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "nameLikeIn": [
+        "ec"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "Eclipse Distribution License - v 1.0",
+      "nameLikeIn": [
+        "Eclipse Distribution License - v 1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Eclipse Distribution License - v 1.0 ",
+      "nameLikeIn": [
+        "Eclipse Distribution License - v 1.0 "
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Eclipse Distribution License (New BSD License)",
+      "nameLikeIn": [
+        "Eclipse Distribution License (New BSD License)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Eclipse Distribution License v. 1.0",
+      "nameLikeIn": [
+        "Eclipse Distribution License v. 1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "EDL 1.0",
+      "nameLikeIn": [
+        "EDL 1.0",
+        "EDL%v1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Elastic-2.0",
+      "nameLikeIn": [
+        "Elastic%2.0",
+        "Elastic%2.0",
+        "Elastic License%2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "EPL 2.0 GPL2 ",
+      "nameLikeIn": [
+        "EPL 2.0 GPL2 "
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "EPL-1.0",
+      "nameLikeIn": [
+        "Eclipse Public License%1.0",
+        "Eclipse Publish License, Version 1.0",
+        "EPL%1.0",
+        "EPL"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "EPL-1.1",
+      "nameLikeIn": [
+        "Eclipse Public License%1.1"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "EPL-1.2",
+      "nameLikeIn": [
+        "Eclipse Public License%1.2"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "EPL-1.3",
+      "nameLikeIn": [
+        "Eclipse Public License%1.3"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "EPL-2.0",
+      "nameLikeIn": [
+        "Eclipse Public License%2.0",
+        "EPL%2",
+        "EPL%2.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "FDK-AAC",
+      "nameLikeIn": [
+        "FDK%AAC",
+        "Fraunhofer FDK%AAC Codec Library"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "nameLikeIn": [
+        "Freely redistributable without restriction"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "FSL-1.1-ALv2",
+      "nameLikeIn": [
+        "FSL-1.1-ALv2",
+        "Functional Source License, Version 1.1, ALv2 Future License"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "FTL",
+      "nameLikeIn": [
+        "Freetype Project License",
+        "FTL"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "FSFAP",
+      "nameLikeIn": [
+        "FSFAP",
+        "FSF All Permissive License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "FSFUL",
+      "nameLikeIn": [
+        "FSFUL",
+        "FSF Unlimited License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "FSFULLR",
+      "nameLikeIn": [
+        "FSFULLR",
+        "FSF Unlimited License (with License Retention)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "FSFULLRWD",
+      "nameLikeIn": [
+        "FSFULLRWD",
+        "FSF Unlimited License (With License Retention and Warranty Disclaimer)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GD",
+      "nameLikeIn": [
+        "GD",
+        "GD License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GFDL-1.1",
+      "nameLikeIn": [
+        "GFDL%1.1",
+        "GNU Free Documentation License v1.1"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GFDL-1.1-no-invariants-or-later",
+      "nameLikeIn": [
+        "GFDL-1.1-no-invariants-or-later"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GFDL-1.2-no-invariants-only",
+      "nameLikeIn": [
+        "GFDL-1.2-no-invariants-only"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GFDL-1.3-no-invariants-or-later",
+      "nameLikeIn": [
+        "GFDL-1.3-no-invariants-or-later"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GFDL-1.1-only",
+      "nameLikeIn": [
+        "GFDL%1.1%only",
+        "GNU Free Documentation License v1.1 only"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GFDL-1.1-or-later",
+      "nameLikeIn": [
+        "GFDL%1.1%or%later",
+        "GNU Free Documentation License v1.1 or later"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GFDL-1.2",
+      "nameLikeIn": [
+        "GFDL%1.2",
+        "GFDL-1.2",
+        "GNU Free Documentation License v1.2"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GFDL-1.2-only",
+      "nameLikeIn": [
+        "GFDL%1.2%only",
+        "GNU Free Documentation License v1.2 only",
+        "GFDL"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GFDL-1.2-or-later",
+      "nameLikeIn": [
+        "GFDL%1.2%or%later",
+        "GNU Free Documentation License v1.2 or later"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GFDL-1.3",
+      "nameLikeIn": [
+        "GFDL%1.3",
+        "GFDL-1.3",
+        "GNU Free Documentation License v1.3"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GFDL-1.3-only",
+      "nameLikeIn": [
+        "GFDL%1.3%only",
+        "GNU Free Documentation License v1.3 only"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GFDL-1.3-or-later",
+      "nameLikeIn": [
+        "GFDL%1.3%or later",
+        "GNU Free Documentation License v1.3 or later"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GitVerse-1.0",
+      "nameLikeIn": [
+        "GitVerse-1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GNU General Public Library COMMON DEVELOPMENT",
+      "nameLikeIn": [
+        "GNU General Public Library COMMON DEVELOPMENT"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Go License",
+      "nameLikeIn": [
+        "Go License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "GPL-1.0",
+      "nameLikeIn": [
+        "GNU General Public License v1.0 only",
+        "GPL%1.0",
+        "The GNU General Public License"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-1.0-only",
+      "nameLikeIn": [
+        "GNU General Public License v1.0 only",
+        "GPL%1.0%only"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-1.0-or-later",
+      "nameLikeIn": [
+        "GNU General Public License v1.0 or later",
+        "GPL%1.0+",
+        "GPL-1.0-or-later",
+        "GNU General Public License v1.0 or later",
+        "GPL+"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-2.0",
+      "nameLikeIn": [
+        "GNU General Public License v2.0 only",
+        "GNU General Public License%2.0",
+        "GPL%2",
+        "GPL%2.0",
+        "GNU General Public License version 2 (GPLv2) GNU Lesser",
+        "The GNU General Public License, Version 2",
+        "GNU General Public License (GPL), version 2",
+        "GNU General Public License (GPL),\nversion 2",
+        "GNU General Public License Version 2"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-2.0-only",
+      "nameLikeIn": [
+        "GNU General Public License v2.0 only",
+        "GNU General Public License, version 2",
+        "GNU General Public License, version 2.0",
+        "GPL-2.0",
+        "GPL%2.0%only"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-2.0-only WITH Universal-FOSS-exception-1.0",
+      "nameLikeIn": [
+        "The GNU General Public License, v2 with Universal FOSS Exception, v1.0",
+        "GPL-2.0-only WITH Universal-FOSS-exception-1.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-2.0-or-later",
+      "nameLikeIn": [
+        "GNU General Public License v2.0 or later",
+        "GPL%2.0%or%later",
+        "GPL%2.0+",
+        "GPL%2+"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-2.0-with-classpath-exception",
+      "nameLikeIn": [
+        "GNU General Public License v2.0 w/Classpath exception",
+        "GNU Classpath",
+        "GPL-2.0-WCE",
+        "GPL v2 with the Classpath exception",
+        "GNU General Public License, version 2, with the Classpath Exception",
+        "GNU General Public License, version 2 with the GNU Classpath Exception"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-2.1",
+      "nameLikeIn": [
+        "GNU General Public License v2.1 only"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-3.0",
+      "nameLikeIn": [
+        "General Public License v3.0",
+        "GNU General Public License v3.0 only",
+        "GPL%3",
+        "GPL%3.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-3.0-only",
+      "nameLikeIn": [
+        "GNU General Public License v3.0 only",
+        "GPL%3.0%only"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-3.0-or-later",
+      "nameLikeIn": [
+        "GNU General Public License v3.0 or later",
+        "GPL%3.0%or%later",
+        "GPL%3.0+",
+        "GPL%3+"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "GPL-3.0-with-GCC-exception",
+      "nameLikeIn": [
+        "GPL-3.0-with-GCC-exception",
+        "GNU General Public License v3.0 w/GCC Runtime Library exception"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "nameLikeIn": [
+        "GraalVM Free Terms and Conditions (GFTC) including License for Early Adopter Versions"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "nameLikeIn": [
+        "Standard 'no charge' license: https://gsap.com/standard-license.",
+        "Standard 'no charge' license: https://gsap.com/standard-license"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "hdparm",
+      "nameLikeIn": [
+        "hdparm License",
+        "hdparm"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Hippocratic 2.1",
+      "nameLikeIn": [
+        "Hippocratic 2.1"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Hippocratic: 2.1.",
+      "nameLikeIn": [
+        "Hippocratic: 2.1."
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "HP-1986",
+      "nameLikeIn": [
+        "HP-1986",
+        "Hewlett-Packard 1986 License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "HPND",
+      "nameLikeIn": [
+        "HPND",
+        "HPND License",
+        "Historical Permission Notice and Disclaimer"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "HPND-Intel",
+      "nameLikeIn": [
+        "HPND-Intel",
+        "Historical Permission Notice and Disclaimer - Intel variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "HPND-Markus-Kuhn",
+      "nameLikeIn": [
+        "HPND-Markus-Kuhn",
+        "Historical Permission Notice and Disclaimer - Markus Kuhn variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "HPND-merchantability-varian",
+      "nameLikeIn": [
+        "HPND-merchantability-varian",
+        "Historical Permission Notice and Disclaimer - merchantability variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "HPND-SMC",
+      "nameLikeIn": [
+        "HPND-SMC",
+        "Historical Permission Notice and Disclaimer - SMC variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "HPND-sell-variant",
+      "nameLikeIn": [
+        "Historical Permission Notice and Disclaimer - sell variant",
+        "HPND-sell-variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "HPND-doc-sell",
+      "nameLikeIn": [
+        "HPND-doc-sell",
+        "Historical Permission Notice and Disclaimer - documentation sell variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "HPND-export2-US",
+      "nameLikeIn": [
+        "HPND-export2-US",
+        "HPND with US Government export control and 2 disclaimers"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "HPND-export-US",
+      "nameLikeIn": [
+        "HPND-export-US",
+        "HPND with US Government export control warning"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "HPND-export-US-acknowledgement",
+      "nameLikeIn": [
+        "HPND-export-US-acknowledgement",
+        "HPND with US Government export control warning and acknowledgment"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "HPND-export-US-modify",
+      "nameLikeIn": [
+        "HPND-export-US-modify",
+        "HPND with US Government export control warning and modification rqmt"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "HPND-Pbmplus",
+      "nameLikeIn": [
+        "HPND-Pbmplus",
+        "Historical Permission Notice and Disclaimer - Pbmplus variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "hpnd-uc",
+      "nameLikeIn": [
+        "hpnd-uc",
+        "Historical Permission Notice and Disclaimer - University of California variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Imlib2",
+      "nameLikeIn": [
+        "Imlib2",
+        "Imlib2 License"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "IBM International Program License Agreement",
+      "nameLikeIn": [
+        "IBM International Program License Agreement"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "ICS License",
+      "nameLikeIn": [
+        "ICS License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "ICU",
+      "nameLikeIn": [
+        "ICU",
+        "ICU License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "IJG",
+      "nameLikeIn": [
+        "IJG",
+        "Independent JPEG Group License",
+        "IJG (Independent JPEG Group)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "IJG-short",
+      "nameLikeIn": [
+        "IJG-short",
+        "Independent JPEG Group License - short"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "IJG (Independent JPEG Group)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Indiana University Extreme! Lab Software License",
+      "nameLikeIn": [
+        "Indiana University Extreme! Lab Software License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Indiana University Extreme! Lab Software License 1.1.1",
+      "nameLikeIn": [
+        "Indiana University Extreme! Lab Software License 1.1.1"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Indiana University Extreme! Lab Software License 1.2",
+      "nameLikeIn": [
+        "Indiana University Extreme! Lab Software License 1.2",
+        "Indiana University Extreme! Lab Software License, Version 1.2"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Info-ZIP",
+      "nameLikeIn": [
+        "Info-ZIP"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Inner-Net ",
+      "nameLikeIn": [
+        "Inner-Net "
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Inner-Net-2.0",
+      "nameLikeIn": [
+        "Inner-Net-2.0",
+        "Inner Net License v2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "ISC",
+      "nameLikeIn": [
+        "ISC",
+        "ISC License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "JAMon License (BSD)",
+      "nameLikeIn": [
+        "JAMon License (BSD)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Java HTML Tidy License",
+      "nameLikeIn": [
+        "Java HTML Tidy License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Jaxen /like BSD-3",
+      "nameLikeIn": [
+        "Jaxen /like BSD-3"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "JasPer-2.0",
+      "nameLikeIn": [
+        "JasPer-2.0",
+        "JasPer License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "JGraph Ltd - 3 clause BSD license",
+      "nameLikeIn": [
+        "JGraph Ltd - 3 clause BSD license"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "jQuery license",
+      "nameLikeIn": [
+        "jQuery license"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "JSON",
+      "nameLikeIn": [
+        "JSON",
+        "JSON License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "JSR-000107 JCACHE 2.9 Public Review - Updated Specification License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Kazlib",
+      "nameLikeIn": [
+        "Kazlib",
+        "Kazlib License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Knuth-CTAN",
+      "nameLikeIn": [
+        "Knuth-CTAN",
+        "Knuth CTAN License",
+        "Knuth"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "LAL-1.3",
+      "nameLikeIn": [
+        "Licence Art Libre%1.3",
+        "Licence Art Libre 1.3 (LAL 1.3)",
+        "LAL%1.3"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LAL-1.3",
+      "nameLikeIn": [
+        "LAL-1.3",
+        "Licence Art Libre 1.3"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "Leptonica",
+      "nameLikeIn": [
+        "Leptonica",
+        "Leptonica License"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "libtiff",
+      "nameLikeIn": [
+        "libtiff",
+        "libtiff License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "Liquibase EULA"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "LPPL-1.0",
+      "nameLikeIn": [
+        "LPPL-1.0",
+        "LaTeX Project Public License v1.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LPPL-1.3c",
+      "nameLikeIn": [
+        "LPPL-1.3c",
+        "LPPL%1.3c"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "LPPL-1.3a",
+      "nameLikeIn": [
+        "LPPL-1.3a",
+        "LPPL%1.3a"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "LGPL-1.0-only",
+      "nameLikeIn": [
+        "GNU Library General Public License v1 only",
+        "lgpl"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-1.0-or-later",
+      "nameLikeIn": [
+        "GNU Library General Public License v1 or later"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-2.0",
+      "nameLikeIn": [
+        "GNU Library General Public License v2",
+        "GNU Library General Public License v2 only",
+        "LGPL%2",
+        "LGPL%2.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-2.0-only",
+      "nameLikeIn": [
+        "GNU Library General Public License v2 only",
+        "LGPL%2.0%only",
+        "GNU General Public Library",
+        "The GNU General Public Library"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-2.0-or-later",
+      "nameLikeIn": [
+        "GNU Library General Public License v2 or later",
+        "LGPL%2.0%or%later",
+        "LGPL%2.0+",
+        "LGPL%2+"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-2.1",
+      "nameLikeIn": [
+        "GNU Lesser General Public License",
+        "GNU Lesser General Public License v2.1 only",
+        "GNU Lesser General Public License Version 2.1",
+        "GNU Lesser General Public License%2.1",
+        "The GNU Lesser General Public License, Version 2.1",
+        "LGPL%2.1",
+        "LGPL, version 2.1",
+        "General Public License version 2.1 (LGPLv2.1)"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-2.1-only",
+      "nameLikeIn": [
+        "GNU Lesser General Public License v2.1 only",
+        "GNU Library General Public License v2.1 only",
+        "LGPL%2.1%only"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-2.1-or-later",
+      "nameLikeIn": [
+        "GNU Lesser General Public License v2.1 or later",
+        "GNU Library General Public License v2.1 or later",
+        "LGPL%2.1%or%later",
+        "LGPL%2.1+"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-2.1+",
+      "nameLikeIn": [
+        "GNU Lesser General Public License v2.1 or later",
+        "GNU Library General Public License v2.1 or later",
+        "LGPL%2.1%or%later",
+        "LGPL%2.1+"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-3.0",
+      "nameLikeIn": [
+        "GNU Lesser General Public License v3.0",
+        "GNU Lesser General Public Licence",
+        "GNU Lesser General Public License v3.0 only",
+        "GNU Lesser Public License",
+        "LGPL%3",
+        "LGPL%3.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-3.0-only",
+      "nameLikeIn": [
+        "GNU Lesser General Public License v3.0 only",
+        "LGPL%3.0%only"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-3.0-or-later",
+      "nameLikeIn": [
+        "GNU Lesser General Public License v3.0 or later",
+        "LGPL%3.0%or%later",
+        "LGPL%3.0+",
+        "LGPL%3+"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LGPL-3.0+",
+      "nameLikeIn": [
+        "GNU Lesser General Public License v3.0 or later",
+        "LGPL%3.0%or%later",
+        "LGPL%3.0+",
+        "LGPL%3+"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LPPL-1.0",
+      "nameLikeIn": [
+        "LPPL%1.0",
+        "LPPL",
+        "LaTeX Project Public License v1.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LPPL-1.3a",
+      "nameLikeIn": [
+        "LPPL-1.3a",
+        "LaTeX Project Public License v1.3a"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "LPPL-1.3c",
+      "nameLikeIn": [
+        "LPPL-1.3c",
+        "LaTeX Project Public License v1.3c"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Linux-man-pages-1-para",
+      "nameLikeIn": [
+        "Linux-man-pages-1-para",
+        "Linux man-pages - 1 paragraph"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Linux-man-pages-copyleft",
+      "nameLikeIn": [
+        "Linux-man-pages-copyleft"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Linux-man-pages-copyleft-2-para",
+      "nameLikeIn": [
+        "Linux-man-pages-copyleft-2-para",
+        "Linux man-pages Copyleft - 2 paragraphs"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Linux-man-pages-copyleft-var",
+      "nameLikeIn": [
+        "Linux-man-pages-copyleft-var",
+        "Linux man-pages Copyleft Variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "Liberation"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "LICENSE AGREEMENT Matplotlib Development Team",
+      "nameLikeIn": [
+        "LICENSE AGREEMENT Matplotlib Development Team"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "LICENSE NMAP",
+        "Nmap Public Source License",
+        "Nmap"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "Linux-OpenIB",
+      "nameLikeIn": [
+        "Linux Kernel Variant of OpenIB.org license",
+        "Linux-OpenIB"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "lsof",
+      "nameLikeIn": [
+        "lsof",
+        "lsof License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "Lucida"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "mailprio",
+      "nameLikeIn": [
+        "mailprio",
+        "mailprio License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MakeIndex",
+      "nameLikeIn": [
+        "MakeIndex",
+        "MakeIndex License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Martin-Birgmeier",
+      "nameLikeIn": [
+        "Martin-Birgmeier",
+        "Martin Birgmeier License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "mecab-ipadic",
+        "Nara Institute of Science and Technology License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MIT",
+      "nameLikeIn": [
+        "MIT",
+        "MIT License",
+        "The MIT License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MIT-open-group",
+      "nameLikeIn": [
+        "MIT-open-group",
+        "MIT Open Group variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MIT-Modern-Variant",
+      "nameLikeIn": [
+        "MIT-Modern-Variant",
+        "MIT Modern Variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MIT X11 License",
+      "nameLikeIn": [
+        "MIT X11 License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MIT/X11",
+      "nameLikeIn": [
+        "MIT/X11"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MIT-Modern-Variant",
+      "nameLikeIn": [
+        "MIT-Modern-Variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MIT-0",
+      "nameLikeIn": [
+        "MIT No Attribution",
+        "MIT%0",
+        "MIT-0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MIT-Khronos-old",
+      "nameLikeIn": [
+        "MIT-Khronos-old",
+        "MIT Khronos - old variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MIT-Wu",
+      "nameLikeIn": [
+        "MIT-Wu",
+        "MIT Tom Wu Variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MIT-CMU",
+      "nameLikeIn": [
+        "MIT-CMU"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "ML 1.1",
+      "nameLikeIn": [
+        "ML 1.1"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Mockrunner License, Version 1.1",
+      "nameLikeIn": [
+        "Mockrunner License, Version 1.1"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "mpich2",
+      "nameLikeIn": [
+        "mpich2",
+        "mpich2 License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Modified BSD",
+      "nameLikeIn": [
+        "Modified BSD"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Modified BSD License",
+      "nameLikeIn": [
+        "Modified BSD License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Mozilla Public License 2.1.7.js6",
+      "nameLikeIn": [
+        "Mozilla Public License 2.1.7.js6"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "MPL-1.0",
+      "nameLikeIn": [
+        "Mozilla Public License 1.0",
+        "MPL%1.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "MPL-1.1",
+      "nameLikeIn": [
+        "Mozilla Public License 1.1",
+        "Mozilla Public License Version 1.1",
+        "MPL%1.1"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "MPL-2.0",
+      "nameLikeIn": [
+        "Mozilla Public License%2.0",
+        "Mozilla Public License, Version 2.0",
+        "MPL%2.0",
+        "MPL%2.0%license",
+        "MPL-2.0-no-copyleft-exception",
+        "Mozilla Public License 2.0 (no copyleft exception)"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "MPL-2.0-no-copyleft-exception",
+      "nameLikeIn": [
+        "Mozilla Public License%2.0",
+        "MPL%2.0",
+        "MPL%2.0%license",
+        "MPL-2.0-no-copyleft-exception",
+        "Mozilla Public License 2.0 (no copyleft exception)"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "MS-PL",
+      "nameLikeIn": [
+        "MS-PL",
+        "Microsoft%Public%License"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "MS-RL",
+      "nameLikeIn": [
+        "MS-RL",
+        "Microsoft%Reciprocal%License"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "MulanPSL-2.0",
+      "nameLikeIn": [
+        "Mulan Permissive Software License, Version 2",
+        "MulanPSL%2.0",
+        "MulanPSL-2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "NAIST-2003",
+      "nameLikeIn": [
+        "NAIST-2003",
+        "Nara Institute of Science and Technology License",
+        "Nara Institute of Science and Technology License (2003)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "NCSA",
+      "nameLikeIn": [
+        "University of Illinois/NCSA Open Source License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "New BSD License",
+      "nameLikeIn": [
+        "New BSD License",
+        "New BSD License (GPL-compatible)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "New BSD License (BSD 3-clause)",
+      "nameLikeIn": [
+        "New BSD License (BSD 3-clause)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "NIST-PD",
+      "nameLikeIn": [
+        "NIST Public Domain Notice",
+        "NIST-PD"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "NPL-1.0",
+      "nameLikeIn": [
+        "Netscape Public License v1.0",
+        "NPL%1.0",
+        "NPL-1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "Nmap Public Source License",
+        "Nmap"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "OAR",
+      "nameLikeIn": [
+        "OAR",
+        "OAR License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "ODC-By-1.0",
+      "nameLikeIn": [
+        "ODC-By%1.0",
+        "Open Data Commons Attribution License v%1.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "OFL-1.0",
+      "nameLikeIn": [
+        "OFL%1.0",
+        "OFL-1.0",
+        "SIL Open Font License%1.0",
+        "SIL Open Font License 1.0",
+        "OFL"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "OFL-1.1",
+      "nameLikeIn": [
+        "OFL%1.1",
+        "SIL Open Font License%1.1",
+        "SIL"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "OFL-1.1-RFN",
+      "nameLikeIn": [
+        "OFL-1.1-RFN",
+        "SIL Open Font License 1.1 with Reserved Font Name"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "OLDAP-2.7",
+      "nameLikeIn": [
+        "OLDAP%2.7",
+        "Open LDAP Public License v2.7"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "OLDAP-2.8",
+      "nameLikeIn": [
+        "OLDAP%2.8",
+        "OLDAP-2.8",
+        "Open LDAP Public License%2.8"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "OML",
+      "nameLikeIn": [
+        "Open Market License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "OpenLDAP",
+      "nameLikeIn": [
+        "OpenLDAP"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "OpenVision",
+      "nameLikeIn": [
+        "OpenVision",
+        "OpenVision License"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "OpenPBS-2.3",
+      "nameLikeIn": [
+        "OpenPBS-2.3",
+        "OpenPBS v2.3 Software License",
+        "PBS License"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "OpenSSL",
+      "nameLikeIn": [
+        "OpenSSL",
+        "OpenSSL License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "OPUBL-1.0",
+      "nameLikeIn": [
+        "OPUBL-1.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Oracle Free Use Terms and Conditions (FUTC)",
+      "nameLikeIn": [
+        "Oracle Free Use Terms and Conditions (FUTC)"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "Oracle FUTC",
+      "nameLikeIn": [
+        "Oracle FUTC"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "OSI-approved",
+      "nameLikeIn": [
+        "OSI-approved",
+        "Open Source Initiative"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "O-UDA-1.0",
+      "nameLikeIn": [
+        "O-UDA-1.0",
+        "Open Use of Data Agreement 1.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "nameLikeIn": [
+        "License :: OSI Approved"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "PHP-3.0",
+      "nameLikeIn": [
+        "PHP",
+        "PHP-3.0",
+        "PHP License v3.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "PHP-3.01",
+      "nameLikeIn": [
+        "PHP License v3.01"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "PNG Reference Library License v2"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "psfrag",
+      "nameLikeIn": [
+        "psfrag",
+        "psfrag License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Plexus",
+      "nameLikeIn": [
+        "Plexus",
+        "Plexus Classworlds License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "PNG Reference Library License v2"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "PostgreSQL",
+      "nameLikeIn": [
+        "PostgreSQL",
+        "PostgreSQL License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "PSF License",
+      "nameLikeIn": [
+        "PSF License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "PSF-2.0",
+      "nameLikeIn": [
+        "PSF%2.0",
+        "PSF-2.0",
+        "Python Software Foundation License 2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Public Domain",
+      "nameLikeIn": [
+        "Public Domain",
+        "Public domain"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Public Domain, per Creative Commons CC0",
+      "nameLikeIn": [
+        "Public Domain, per Creative Commons CC0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Public Domain, per Creative Commons CC0 BSD-2-Clause ",
+      "nameLikeIn": [
+        "Public Domain, per Creative Commons CC0 BSD-2-Clause "
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Public Domain, per Creative Commons CC0, BSD-2-Clause",
+      "nameLikeIn": [
+        "Public Domain, per Creative Commons CC0, BSD-2-Clause"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Public Domain, The Unlicense",
+      "nameLikeIn": [
+        "Public Domain, The Unlicense"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "PublicDomain,perCreativeCommonsCC0",
+      "nameLikeIn": [
+        "PublicDomain,perCreativeCommonsCC0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Python Software Foundation License",
+      "nameLikeIn": [
+        "Python Software Foundation License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Python-2.0",
+      "nameLikeIn": [
+        "Python",
+        "Python License 2.0",
+        "Python%2.0",
+        "Python-2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Python-2.0.1",
+      "nameLikeIn": [
+        "Python-2.0.1",
+        "Python License 2.0.1"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Qhull",
+      "nameLikeIn": [
+        "Qhull",
+        "Qhull License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "python-ldap",
+      "nameLikeIn": [
+        "python-ldap",
+        "Python ldap License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "radvd",
+      "nameLikeIn": [
+        "radvd",
+        "radvd License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "Redistributable, no modification permitted"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "nameLikeIn": [
+        "Rsfs",
+        "Rsfs License"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "Ruby",
+      "nameLikeIn": [
+        "Ruby",
+        "Ruby License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Ruby-pty",
+      "nameLikeIn": [
+        "Ruby-pty",
+        "Ruby pty extension license"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Saxpath",
+      "nameLikeIn": [
+        "Saxpath",
+        "Saxpath License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "SAX-PD-2.0",
+      "nameLikeIn": [
+        "SAX-PD-2.0",
+        "Sax Public Domain Notice 2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "SGI Free Software License B v2.0",
+      "nameLikeIn": [
+        "SGI Free Software License B v2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "SMLNJ",
+      "nameLikeIn": [
+        "SMLNJ",
+        "Standard ML of New Jersey License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "SunPro",
+      "nameLikeIn": [
+        "SunPro",
+        "SunPro License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Spencer-94",
+      "nameLikeIn": [
+        "Spencer-94",
+        "Spencer License 94"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Symlinks",
+      "nameLikeIn": [
+        "Symlinks",
+        "Symlinks License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "SAX-PD",
+      "nameLikeIn": [
+        "Sax Public Domain Notice"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Sendmail",
+      "nameLikeIn": [
+        "Sendmail",
+        "Sendmail License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "sendmail-8.23",
+      "nameLikeIn": [
+        "Sendmail License 8.23",
+        "sendmail-8.23"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "SISSL",
+      "nameLikeIn": [
+        "SISSL",
+        "Sun Industry Standards Source License v1.1"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Sleepycat",
+      "nameLikeIn": [
+        "Sleepycat",
+        "Sleepycat License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "SNIA",
+      "nameLikeIn": [
+        "SNIA Public License 1.1"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "SSPL-1.0",
+      "nameLikeIn": [
+        "SSPL%1.0",
+        "Server Side Public License%v%1",
+        "Server Side Public License%v%1.0",
+        "Server Side Public License%1.0"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "TCL",
+      "nameLikeIn": [
+        "TCL",
+        "TCL/TK License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "The Go Authors",
+      "nameLikeIn": [
+        "The Go Authors"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "The ISC License",
+      "nameLikeIn": [
+        "The ISC License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "The JSON License",
+      "nameLikeIn": [
+        "The JSON License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "The Legion of the Bouncy Castle",
+      "nameLikeIn": [
+        "The Legion of the Bouncy Castle"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "The SAX License",
+      "nameLikeIn": [
+        "The SAX License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "The W3C License",
+      "nameLikeIn": [
+        "The W3C License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Timescale License",
+      "nameLikeIn": [
+        "Timescale License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "threeparttable",
+      "nameLikeIn": [
+        "threeparttable",
+        "threeparttable License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "TORQUE-1.1",
+      "nameLikeIn": [
+        "TORQUE-1.1",
+        "TORQUE v2.5+ Software License v1.1"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "TTWL",
+      "nameLikeIn": [
+        "TTWL",
+        "Text-Tabs+Wrap License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "TU-Berlin-2.0",
+      "nameLikeIn": [
+        "TU-Berlin-2.0",
+        "Technische Universitaet Berlin License 2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "UCD",
+      "nameLikeIn": [
+        "UCD"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "ulem",
+      "nameLikeIn": [
+        "ulem",
+        "ulem License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "UnboundID SCIM2 SDK Free Use License",
+      "nameLikeIn": [
+        "UnboundID SCIM2 SDK Free Use License"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "Unicode",
+      "nameLikeIn": [
+        "Unicode"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Unicode-DFS-2015",
+      "nameLikeIn": [
+        "Unicode-DFS-2015",
+        "Unicode License Agreement - Data Files and Software (2015)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Unicode-3.0",
+      "nameLikeIn": [
+        "Unicode%3.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Unicode/ICU License",
+      "nameLikeIn": [
+        "Unicode/ICU License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Unicode-DFS-2016",
+      "nameLikeIn": [
+        "Unicode License Agreement - Data Files and Software (2016)",
+        "Unicode%DFS%2016",
+        "Unicode-DFS-2016"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "UPL-1.0",
+      "nameLikeIn": [
+        "Universal Permissive License, Version 1.0",
+        "UPL"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Unlicense",
+      "nameLikeIn": [
+        "The Unlicense",
+        "Unlicense"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "UnRar License",
+      "nameLikeIn": [
+        "UnRar License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "Wadalab Font License",
+        "Wadalab"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Vim",
+      "nameLikeIn": [
+        "Vim",
+        "Vim License"
+      ],
+      "type": "VIRUS"
+    },
+    {
+      "spdxId": "W3C",
+      "nameLikeIn": [
+        "W3C",
+        "W3C Software Notice and License (2002-12-31)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "W3C license",
+      "nameLikeIn": [
+        "W3C license"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "W3C-19980720",
+      "nameLikeIn": [
+        "W3C-19980720",
+        "W3C Software Notice and License (1998-07-20)"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "W3C-20150513",
+      "nameLikeIn": [
+        "W3C Software Notice and Document License (2015-05-13)",
+        "W3C-20150513"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "WTFPL",
+      "nameLikeIn": [
+        "Do What The F*ck You Want To Public License",
+        "WTFPL"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "wxWidgets"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "xlock",
+      "nameLikeIn": [
+        "xlock",
+        "xlock License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "xpp",
+      "nameLikeIn": [
+        "xpp",
+        "XPP License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "X11",
+      "nameLikeIn": [
+        "X11",
+        "X11 License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "X11-distribute-modifications-variant",
+      "nameLikeIn": [
+        "X11-distribute-modifications-variant",
+        "X11 License Distribution Modification Variant"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Xdebug-1.03",
+      "nameLikeIn": [
+        "Xdebug-1.03",
+        "Xdebug License v 1.03"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "xinetd",
+      "nameLikeIn": [
+        "xinetd License"
+      ],
+      "type": "PROHIBITED"
+    },
+    {
+      "spdxId": "xkeyboard-config-Zinoviev",
+      "nameLikeIn": [
+        "xkeyboard-config-Zinoviev",
+        "xkeyboard-config Zinoviev License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "nameLikeIn": [
+        "Zend License v2.0"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Zlib",
+      "nameLikeIn": [
+        "Zlib",
+        "zlib License"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Zlib and Boost",
+      "nameLikeIn": [
+        "zlib and Boost"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "Zlib-acknowledgement",
+      "nameLikeIn": [
+        "zlib/libpng License with Acknowledgement",
+        "zlib-acknowledgement"
+      ],
+      "type": "ALLOWED"
+    },
+    {
+      "spdxId": "ZPL 2.1",
+      "nameLikeIn": [
+        "ZPL 2.1"
+      ],
+      "type": "ALLOWED"
+    }
+  ]
+}

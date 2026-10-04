@@ -1,0 +1,8 @@
+mr.xe.delid.service.detector.NpmPackageLicenseDetector
+mr.xe.delid.service.detector.PypiPackageLicenseDetector
+mr.xe.delid.service.detector.MavenPackageLicenseDetector
+mr.xe.delid.service.detector.GoPackageLicenseDetector
+mr.xe.delid.service.detector.DockerPackageLicenseDetector
+mr.xe.delid.service.detector.NugetPackageLicenseDetector
+mr.xe.delid.service.detector.CargoPackageLicenseDetector
+mr.xe.delid.service.detector.RawPackageLicenseDetector
