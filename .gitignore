@@ -37,7 +37,6 @@ application-local.yml
 application-local.properties
 local.*
 .env
-.DS_Store
 Thumbs.db
 
 # --- OS & Editor ---
@@ -64,3 +63,5 @@ native/
 *.env
 # Но не игнорируем SAMPLE.env (где бы он ни лежал)
 !SAMPLE.env
+
+.agent/
