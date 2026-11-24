@@ -1,5 +1,13 @@
 # dependency-license-detector
 
+Детектор лицензий для зависимостей проектов. Поддерживаются типы пакетов:
+- MAVEN,
+- PYPI,
+- NPM,
+- GO,
+- NUGET,
+- CARGO
+
 ## Use app
 
 1. Load `app.env` to environment, see [SAMPLE.env](SAMPLE.env)
